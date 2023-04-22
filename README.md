@@ -7,10 +7,10 @@ Behold the repository of glory, the battleground of wits, the ultimate arena of 
  
 ## Easy
 
- - **01**
-        1. Palindrome Number
-        2. Roman to Integer
-        3. Valid Parentheses
+- **01**
+  1. Palindrome Number
+  2. Roman to Integer
+  3. Valid Parentheses
 
 ## Medium
 
