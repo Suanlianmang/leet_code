@@ -1,0 +1,79 @@
+# Python
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+env37/
+env38/
+.venv/
+
+# Ignore local development settings
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Ignore generated files and directories
+__pycache__/
+dist/
+build/
+*.egg-info/
+*.egg/
+*.log
+
+# Rust
+
+# Ignore compiled Rust files
+target/
+
+# Ignore generated documentation
+doc/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+*.pem
+*.key
+*.cert
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime*
+*.swp
+*.swo
+
+# Go
+
+# Ignore compiled Go files
+*.o
+*.a
+*.exe
+
+# Ignore go module cache
+/go/pkg/
+/go/bin/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+*.pem
+*.key
+*.cert
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime*
+*.swp
+*.swo
+
