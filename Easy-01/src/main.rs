@@ -45,10 +45,9 @@ impl Solution {
 
     }
 
-    pub fn is_valid(s: String) -> bool {
+    pub fn is_valid(s: &str) -> bool {
         let mut queue: VecDeque<char> = VecDeque::new();
         for c in s.chars() {
-            println!("{}, {:?}", c, queue);
             let front = queue.pop_back();
             if front == None {
                 queue.push_back(c);
@@ -78,5 +77,5 @@ fn main() {
 
      
     let x = String::from("([)]");
-    println!("{:?}", Solution::is_valid(x));
+    println!("{} is valid: {:?}", x, Solution::is_valid(&x));
 }
