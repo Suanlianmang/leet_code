@@ -26,10 +26,10 @@ impl Solution {
      }
     }
     pub fn roman_to_int(s: &str) -> i32 {
-        let num = s.chars().map(|x| Self::map_roman(x)).collect::<Vec<i32>>();
+        let num: Vec<i32> = s.chars().map(|x| Self::map_roman(x)).collect::<Vec<i32>>();
 
 
-        let num_to_sub = num.iter().enumerate().map(|(i, x)| {if i < (&num.len() - 1) && num[i + 1] > *x{*x}else{0}}).collect::<Vec<i32>>();
+        let num_to_sub: Vec<i32> = num.iter().enumerate().map(|(i, x)| {if i < (&num.len() - 1) && num[i + 1] > *x{*x}else{0}}).collect::<Vec<i32>>();
 
         num.into_iter().sum::<i32>() - (num_to_sub.into_iter().sum::<i32>() * 2)
     }

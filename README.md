@@ -2,7 +2,7 @@
 
 Behold the repository of glory, the battleground of wits, the ultimate arena of coding excellence.
 
-Just trying to learn Rust by solving LeetCode problems. 🤓
+*Just trying to learn Rust by solving LeetCode problems.* 🤓
 
  
 ## Easy
