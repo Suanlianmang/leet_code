@@ -14,4 +14,7 @@ Behold the repository of glory, the battleground of wits, the ultimate arena of 
 
 ## Medium
 
+- **01**
+  1. Reverse Integer
+
 ## Hard
